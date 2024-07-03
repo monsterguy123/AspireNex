@@ -5,13 +5,9 @@ import societo from '../../assets/societo.png'
  
 const PersonalProjects = ({personalProjectsRef}) => {
 
-    const scrollToProjects = () => {
-        personalProjectsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    };
-
     return (
         <div ref={personalProjectsRef} className='mt-32 dark:bg-gray-900 p-10'>
-             <h1 onClick={scrollToProjects} className='cursor-pointer text-5xl text-gray-400 underline font-bold font-serif text-center py-8'>
+             <h1 className='cursor-pointer text-5xl text-gray-400 underline font-bold font-serif text-center py-8'>
                 PERSONAL PROJECTS
             </h1>
             <SocietoApp />

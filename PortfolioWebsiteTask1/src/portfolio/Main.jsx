@@ -16,7 +16,7 @@ const Main = () => {
 
 
   return (
-    <div className={`h-screen ${isDarkMode ? 'dark:bg-gray-900' : 'bg-white'}`}>
+    <div>
       <Navbar
         isDarkMode={isDarkMode}
         setIsDarkMode={setIsDarkMode}
@@ -30,7 +30,7 @@ const Main = () => {
       <Skill skillsRef={skillsRef} isDarkMode={isDarkMode} />
       <PersonalProjects personalProjectsRef={personalProjectsRef} />
       <AboutMe aboutMeRef={aboutMeRef} educationRef={educationRef} isDarkMode={isDarkMode} />
-      <ContactMe contactMeRef={contactMeRef} />
+      <ContactMe contactMe={contactMeRef} />
     </div>
   );
 }

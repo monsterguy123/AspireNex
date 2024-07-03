@@ -4,16 +4,16 @@ import deepak2 from '../../assets/deepak2.png';
 import bvmbasma from '../../assets/bvmbasma.jpeg';
 import msi from '../../assets/msi.jpg';
 
-const AboutMe = ({ education, aboutMe ,isDarkMode}) => {
+const AboutMe = ({ aboutMeRef, educationRef ,isDarkMode}) => {
   return (
     <>
-      <div ref={education} className="h-auto dark:bg-gray-900 mt-16 mb-16 box-border ">
+      <div ref={educationRef} className="h-auto dark:bg-gray-900 mt-16 mb-16 box-border ">
         <h1 className="text-5xl mt-20 text-gray-400 underline font-bold font-serif text-center py-8">EDUCATION</h1>
         <div className="mt-10 h-auto justify-center flex flex-col items-center space-y-10 md:flex-row md:space-x-10 md:space-y-0 md:justify-center md:items-start">
           <Education />
         </div>
-        <div>
-          <h1 ref={aboutMe} className="text-5xl mt-40 text-gray-400 underline font-bold font-serif text-center py-8">ABOUT ME</h1>
+        <div ref={aboutMeRef}>
+          <h1 className="text-5xl mt-40 text-gray-400 underline font-bold font-serif text-center py-8">ABOUT ME</h1>
           </div>
         <div id="about" className="relative bg-white dark:bg-gray-900 overflow-hidden">
           <div className="max-w-7xl mx-auto">

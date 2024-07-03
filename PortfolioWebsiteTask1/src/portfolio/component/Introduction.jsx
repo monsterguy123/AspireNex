@@ -7,7 +7,7 @@ const Introduction = () => {
       <div className='dark:bg-gray-900 h-128 mt-20 flex'>
         <div className=' w-[70%] flex items-center'>
           <div className='flex flex-col items-center justify-center h-screen'>
-            <h1 className='mt-32 text-4xl text-center font-serif dark:text-white '>HII ALL , I AM DEEPAK BISHT</h1>
+            <h1 className='mt-20 text-4xl text-center font-serif dark:text-white '>HII ALL , I AM DEEPAK BISHT</h1>
             <p className='mt-5 text-2xl font-extralight font-serif text-gray-400 text-center'>
               I am a passionate Full Stack Web Developer based in India, with a primary focus on backend development. My expertise includes technologies such as Node.js, React.js, TypeScript, Prisma, PostgreSQL, MongoDB, Git, and Docker.
             </p>

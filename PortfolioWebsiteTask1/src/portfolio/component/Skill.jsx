@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import skill from '../../assets/skill.png'
 
 const skills = [
   { id: 1, src: 'https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png', alt: 'JavaScript', width: 'w-16', height: 'h-16' },
@@ -30,11 +31,11 @@ const Skill = ({ skillsRef }) => {
   }, []);
 
   return (
-    <div ref={skillsRef} className='mt-28'>
+    <div ref={skillsRef}  className='mt-28 dark:bg-gray-900'>
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='lg:flex lg:items-center lg:justify-between'>
           <div className='w-[50%] md:w-5/6 lg:w-5/6 hidden md:block'>
-            <img className='mt-8 mx-auto lg:mt-0' src='https://media.licdn.com/dms/image/D4D12AQH801ZRWSGO3A/article-cover_image-shrink_720_1280/0/1693367010226?e=2147483647&v=beta&t=_bnAmRpqy77uNS_vZ0eVoHeI1BVysyYx7eMvjGCBogE' alt='Cover' loading='lazy' />
+            <img className='mt-8 mx-auto lg:mt-0' src='https://cdni.iconscout.com/illustration/premium/thumb/programming-language-9561033-7706464.png' alt='Cover' loading='lazy' />
           </div>
           <div className='lg:w-[60%] mt-10 lg:mt-0'>
             <h1 className='text-4xl sm:text-5xl lg:text-5xl text-gray-400 underline font-bold font-serif text-center py-8'>MY TOP SKILLS</h1>

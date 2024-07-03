@@ -30,12 +30,12 @@ const ContactMe = ({ contactMe }) => {
   };
 
   return (
-    <section ref={contactMe} className="body-font relative">
+    <section ref={contactMe} className="body-font relative dark:bg-gray-900">
       <div className="container px-5 py-24 mx-auto flex flex-col md:flex-row items-center">
-        <form className="w-full md:w-2/3" onSubmit={onSubmit}>
+        <form className="w-full md:w-[50%]" onSubmit={onSubmit}>
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-5xl text-2xl font-medium title-font font-serif mb-4 text-gray-900">Contact Me</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-serif">Please get in touch</p>
+            <h1 className="sm:text-5xl text-2xl font-medium title-font font-serif mb-4 text-gray-900 dark:text-white">Contact Me</h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base font-serif dark:text-white">Please get in touch</p>
           </div>
           <div className="lg:w-2/3 md:w-full mx-auto">
             <div className="flex flex-wrap -m-2">
@@ -130,8 +130,8 @@ const ContactMe = ({ contactMe }) => {
             </div>
           </div>
         </form>
-        <div className="w-full md:w-1/2 lg:w-1/3 hidden md:block">
-          <img src='https://static.vecteezy.com/system/resources/previews/012/994/656/original/call-center-agent-of-customer-service-or-hotline-operator-with-headsets-and-computers-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg' alt="Customer Service" className="w-full h-96 -mt-40 rounded-lg"/>
+        <div className="w-full md:w-[60%] lg:w-1/2 hidden md:block">
+          <img src='https://d33wubrfki0l68.cloudfront.net/bbef79cd2b3cec4b44bbc19485158f74b513aaa1/af751/static/0d3072c1bc5efe39d57caecbf6db4a22/00d43/how-have-we-been-of-use-to-our-customers.png' alt="Customer Service" className="w-full h-110 -mt-40 rounded-lg"/>
         </div>
       </div>
     </section>

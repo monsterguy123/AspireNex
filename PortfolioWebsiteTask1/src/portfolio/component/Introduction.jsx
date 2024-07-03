@@ -1,12 +1,13 @@
 import React from 'react'
+import introduction from '../../assets/introduction.png'
 
 const Introduction = () => {
   return (
     <>
-      <div className='h-128 mt-20 flex'>
+      <div className='dark:bg-gray-900 h-128 mt-20 flex'>
         <div className=' w-[70%] flex items-center'>
           <div className='flex flex-col items-center justify-center h-screen'>
-            <h1 className='mt-10 text-4xl text-center font-serif'>HII ALL , I AM DEEPAK BISHT</h1>
+            <h1 className='mt-32 text-4xl text-center font-serif dark:text-white '>HII ALL , I AM DEEPAK BISHT</h1>
             <p className='mt-5 text-2xl font-extralight font-serif text-gray-400 text-center'>
               I am a passionate Full Stack Web Developer based in India, with a primary focus on backend development. My expertise includes technologies such as Node.js, React.js, TypeScript, Prisma, PostgreSQL, MongoDB, Git, and Docker.
             </p>
@@ -50,14 +51,14 @@ const Introduction = () => {
             </div>
             {/*Download Resume Button*/}
             <div className='mt-10'>
-                <p className='text-3xl font-serif'>Click here to see my resume</p>
-                <a href='https://drive.google.com/file/d/1v5C9zyuIFXtm-HFGS9cQnSDVQdzePtef/view' alt="#"><button className='mt-4 text-white text-xl bg-fuchsia-600 p-3 w-50 font-bold rounded-md'>MY RESUME</button></a>
+                <p className='text-3xl font-serif dark:text-white'>Click here to see my resume</p>
+                <a target='_blank' href='https://drive.google.com/file/d/1v5C9zyuIFXtm-HFGS9cQnSDVQdzePtef/view' alt="#"><button className='mt-4 text-white text-xl bg-fuchsia-600 p-3 w-50 font-bold rounded-md'>MY RESUME</button></a>
             </div>
           </div>
         </div>
         <div className='w-[50%] md:w-1/2 lg:w-1/2 hidden md:block'>
       <div className='relative'>
-        <img className='mt-14 animate-float' src='https://globalsolution-inc.com/wp-content/uploads/2021/05/modern-coding.jpg' alt='Modern Coding' />
+        <img className='mt-14 animate-float' src={introduction} alt='Modern Coding' />
       </div>
     </div>
       </div>

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-underline {
+    background-image: url(https://cdn.prod.website-files.com/60aca2b…/637dc19…_Yellow%20Underline.webp);
+    background-position: 50% 100%;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
